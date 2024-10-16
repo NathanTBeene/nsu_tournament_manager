@@ -1,0 +1,13 @@
+@import 'variables.css';
+@import 'fonts.css';
+
+:root {
+  color: var(--slate-100);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--slate-800);
+}

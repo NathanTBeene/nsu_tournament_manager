@@ -1,0 +1,90 @@
+.container {
+  background: var(--slate-700);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 40px;
+  width: 100%;
+}
+
+.button_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 60px;
+  justify-items: center;
+  align-items: center;
+}
+
+.button_grid button {
+  font-size: 20px;
+  width: 80px;
+  height: 50px;
+}
+
+button:hover {
+  background-color: var(--slate-500);
+}
+
+.button_grid input {
+  font-size: 30px;
+  text-align: center;
+  width: 80px;
+  height: 50px;
+  background: var(--slate-800);
+  border: none;
+  border-radius: 5px;
+  color: var(--slate-200);
+}
+
+input[type='number']:focus {
+  border: none;
+  outline: var(--slate-400) 3px solid;
+}
+
+select:focus {
+  border: none;
+  outline: var(--slate-400) 3px solid;
+}
+
+.team_name {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.team_score {
+  font-size: 80px;
+  text-align: center;
+  padding: none;
+  margin: none;
+}
+
+button {
+  border: none;
+  background-color: var(--slate-600);
+  border-radius: 3px;
+  padding: 5px 10px;
+  color: var(--slate-200);
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.load_team_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.load_team_container select {
+  flex: 1;
+  font-size: 20px;
+  background-color: var(--slate-800);
+  border: none;
+  border-radius: 5px;
+  color: var(--slate-200);
+  padding: 5px 10px;
+}
+
+.load_team_container button {
+  padding: 8px 15px;
+  height: 50px;
+}

@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Tungsten';
+  src: url('./../assets/fonts/Tungsten/Tungsten-Bold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Absolute Empire';
+  src: url('./../assets/fonts/Absolute Empire/aAbsoluteEmpire.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
